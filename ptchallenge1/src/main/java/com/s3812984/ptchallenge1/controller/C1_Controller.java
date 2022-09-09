@@ -36,8 +36,7 @@ public class C1_Controller {
     
     @PutMapping("/item/item{id}")
     public Item updateItem(@PathVariable int ID, @RequestBody String itemDesc, @RequestBody double itemPrice) {
-        
-        return currItem;
+        return null;
     }
 
     @DeleteMapping("/item/item{id}")
