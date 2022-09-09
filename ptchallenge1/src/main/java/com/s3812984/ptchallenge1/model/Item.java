@@ -19,7 +19,7 @@ public class Item {
         return ID;
     }
 
-    public Void setID(int ID) {
+    public void setID(int ID) {
         this.ID = ID;
     }
 
